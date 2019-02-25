@@ -11,7 +11,9 @@ matplotlib, opencv, dlib, numpy, sklearn, imutils等套件
 
 ## pre-trained models
 face detector: 使用opencv的res10 ssd caffe model，檔名叫做"res10_300x300_ssd_iter_140000.caffemodel"，網路上很容易找到
+
 landmark detector: 使用dlib的shape detector來偵測68個人臉特徵點，檔名為"shape_predictor_68_face_landmarks.dat"，一樣很容易下載
+
 face descriptor: 使用vgg face的network，可以從他們的官網下載http://www.robots.ox.ac.uk/~vgg/software/vgg_face/
 
 ##	extract_embeddings2
